@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/S637338/Downloads/ECAQUA_BOT_Chatbot.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>ECAQUA BOT Chatbot</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f4f8f7; padding: 20px; }
+h1 { color: #1b7f79; }
+button { display: block; margin: 10px 0; padding: 10px; width: 100%; background: #1b7f79; color: white; border: none; border-radius: 5px; cursor: pointer; }
+button:hover { background: #145f5a; }
+.answer { margin: 10px 0 20px; padding: 10px; background: white; border-radius: 5px; display: none; }
+</style>
+<script>
+function toggleAnswer(id) {
+  var x = document.getElementById(id);
+  x.style.display = x.style.display === "none" ? "block" : "none";
+}
+</script>
+</head>
+<body>
+<h1>🤖 ECAQUA BOT – Chatbot</h1>
+
+<button onclick="toggleAnswer(&#39;a1&#39;)">Q1. What is ECAQUA BOT?</button>
+<div id="a1" class="answer" style="display: none;">ECAQUA BOT is an autonomous smart irrigation robot that follows a black line, checks soil conditions, and waters plants only when needed to save water.</div>
+
+<button onclick="toggleAnswer(&#39;a2&#39;)">Q2. How does ECAQUA BOT move without human control?</button>
+<div id="a2" class="answer" style="display: block;">ECAQUA BOT uses color sensors to follow a black line on the ground, allowing it to move automatically without any remote control.</div>
+
+<button onclick="toggleAnswer(&#39;a3&#39;)">Q3. How does the robot know when to stop?</button>
+<div id="a3" class="answer" style="display: block;">The robot is programmed to stop at specific points along the line where plants are located so it can check the soil.</div>
+
+<button onclick="toggleAnswer(&#39;a4&#39;)">Q4. How does ECAQUA BOT check the soil?</button>
+<div id="a4" class="answer" style="display: block;">A soil moisture sensor is inserted into the soil using a movable arm to detect whether the soil is wet or dry.</div>
+
+<button onclick="toggleAnswer(&#39;a5&#39;)">Q5. What does wet or dry soil mean chemically?</button>
+<div id="a5" class="answer">Wet soil contains enough water molecules for nutrients to dissolve and move to plant roots, while dry soil lacks water and slows nutrient movement.</div>
+
+<button onclick="toggleAnswer(&#39;a6&#39;)">Q6. Why is fish tank water used in this project?</button>
+<div id="a6" class="answer">Fish tank water contains natural nutrients like nitrates from the nitrogen cycle, which help plants grow and reduce the need for chemical fertilizers.</div>
+
+<button onclick="toggleAnswer(&#39;a7&#39;)">Q7. How does ECAQUA BOT help the environment?</button>
+<div id="a7" class="answer">ECAQUA BOT saves water, prevents over-watering, protects soil chemistry, and supports sustainable agriculture.</div>
+
+<button onclick="toggleAnswer(&#39;a8&#39;)">Q8. What are the future goals of ECAQUA BOT?</button>
+<div id="a8" class="answer">Future goals include adding pH sensors, using solar power, applying AI for better predictions, and expanding the system for real farms.</div>
+
+
+
+</body></html>
